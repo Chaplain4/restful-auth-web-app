@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>RESTful-web-app</artifactId>
+  <packaging>war</packaging>
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <jersey2.version>2.19</jersey2.version>
+    <jaxrs.version>2.0.1</jaxrs.version>
+  </properties>
+  <version>1.0-SNAPSHOT</version>
+  <name>RESTful-web-app Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+
+  <dependencies>
+
+    <!-- JAX-RS -->
+    <dependency>
+      <groupId>javax.ws.rs</groupId>
+      <artifactId>javax.ws.rs-api</artifactId>
+      <version>${jaxrs.version}</version>
+    </dependency>
+    <!-- Jersey 2.19 -->
+    <dependency>
+      <groupId>org.glassfish.jersey.containers</groupId>
+      <artifactId>jersey-container-servlet</artifactId>
+      <version>${jersey2.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.jersey.core</groupId>
+      <artifactId>jersey-server</artifactId>
+      <version>${jersey2.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.2.4</version>
+    </dependency>
+
+<!--    <dependency>-->
+<!--      <groupId>com.sun.jersey</groupId>-->
+<!--      <artifactId>jersey-server</artifactId>-->
+<!--      <version>1.19</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>com.sun.jersey</groupId>-->
+<!--      <artifactId>jersey-servlet</artifactId>-->
+<!--      <version>1.19</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>com.sun.jersey</groupId>-->
+<!--      <artifactId>jersey-client</artifactId>-->
+<!--      <version>1.19</version>-->
+<!--    </dependency>-->
+
+      <!-- API, java.xml.bind module -->
+      <dependency>
+          <groupId>jakarta.xml.bind</groupId>
+          <artifactId>jakarta.xml.bind-api</artifactId>
+          <version>2.3.2</version>
+      </dependency>
+
+      <!-- Runtime, com.sun.xml.bind module -->
+      <dependency>
+          <groupId>org.glassfish.jaxb</groupId>
+          <artifactId>jaxb-runtime</artifactId>
+          <version>2.3.2</version>
+      </dependency>
+
+  </dependencies>
+  <build>
+    <finalName>RESTful-web-app</finalName>
+  </build>
+</project>
