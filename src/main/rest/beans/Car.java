@@ -32,6 +32,6 @@ public class Car
 	
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", model=" + model + "]";
+		return "Car [id=" + id + ", model=" + model + "]";
 	}
 }

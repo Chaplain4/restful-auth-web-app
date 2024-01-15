@@ -55,7 +55,7 @@ public class CarsService
 			return Response.status(400).entity("Please provide the car model !!").build();
 		}
 		
-		return Response.created(new URI("/rest/cars/"+car.getId())).build();
+		return Response.created(new URI("/RESTful_web_app_war/rest/cars/"+car.getId())).build();
 	}
 	
 	@GET
