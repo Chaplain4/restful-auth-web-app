@@ -1,14 +1,10 @@
 package main.rest.beans;
 
 import lombok.*;
-import lombok.extern.jackson.Jacksonized;
-
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name = "address")
-@Builder
-@Jacksonized
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

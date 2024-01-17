@@ -8,8 +8,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name = "response")
 @Data
-@Builder
-@Jacksonized
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity

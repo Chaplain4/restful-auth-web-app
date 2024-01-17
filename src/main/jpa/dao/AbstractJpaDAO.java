@@ -1,6 +1,6 @@
-package main.rest.dao;
+package main.jpa.dao;
 
-import main.rest.service.JPAService;
+import main.jpa.JPAService;
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;

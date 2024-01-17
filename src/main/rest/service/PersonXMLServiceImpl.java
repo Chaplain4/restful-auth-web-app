@@ -2,9 +2,9 @@ package main.rest.service;
 
 import main.rest.beans.Person;
 import main.rest.beans.Response;
-import main.rest.dao.AddressDAO;
-import main.rest.dao.PersonDAO;
-import main.rest.dao.ResponseDAO;
+import main.jpa.dao.AddressDAO;
+import main.jpa.dao.PersonDAO;
+import main.jpa.dao.ResponseDAO;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

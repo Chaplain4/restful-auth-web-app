@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example</groupId>
   <artifactId>RESTful-web-app</artifactId>
@@ -39,91 +39,36 @@
       <version>2.2.4</version>
     </dependency>
 
-<!--    <dependency>-->
-<!--      <groupId>com.sun.jersey</groupId>-->
-<!--      <artifactId>jersey-server</artifactId>-->
-<!--      <version>1.19</version>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>com.sun.jersey</groupId>-->
-<!--      <artifactId>jersey-servlet</artifactId>-->
-<!--      <version>1.19</version>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>com.sun.jersey</groupId>-->
-<!--      <artifactId>jersey-client</artifactId>-->
-<!--      <version>1.19</version>-->
-<!--    </dependency>-->
+    <!--    <dependency>-->
+    <!--      <groupId>com.sun.jersey</groupId>-->
+    <!--      <artifactId>jersey-server</artifactId>-->
+    <!--      <version>1.19</version>-->
+    <!--    </dependency>-->
+    <!--    <dependency>-->
+    <!--      <groupId>com.sun.jersey</groupId>-->
+    <!--      <artifactId>jersey-servlet</artifactId>-->
+    <!--      <version>1.19</version>-->
+    <!--    </dependency>-->
+    <!--    <dependency>-->
+    <!--      <groupId>com.sun.jersey</groupId>-->
+    <!--      <artifactId>jersey-client</artifactId>-->
+    <!--      <version>1.19</version>-->
+    <!--    </dependency>-->
 
-      <!-- API, java.xml.bind module -->
-      <dependency>
-          <groupId>jakarta.xml.bind</groupId>
-          <artifactId>jakarta.xml.bind-api</artifactId>
-          <version>2.3.2</version>
-      </dependency>
-
-      <!-- Runtime, com.sun.xml.bind module -->
-      <dependency>
-          <groupId>org.glassfish.jaxb</groupId>
-          <artifactId>jaxb-runtime</artifactId>
-          <version>2.3.2</version>
-      </dependency>
-      <dependency>
-          <groupId>org.projectlombok</groupId>
-          <artifactId>lombok</artifactId>
-          <version>1.18.24</version>
-          <scope>compile</scope>
-      </dependency>
-
-
+    <!-- API, java.xml.bind module -->
     <dependency>
-      <groupId>com.google.zxing</groupId>
-      <artifactId>core</artifactId>
-      <version>3.3.0</version>
+      <groupId>jakarta.xml.bind</groupId>
+      <artifactId>jakarta.xml.bind-api</artifactId>
+      <version>2.3.2</version>
     </dependency>
 
+    <!-- Runtime, com.sun.xml.bind module -->
     <dependency>
-      <groupId>com.google.zxing</groupId>
-      <artifactId>javase</artifactId>
-      <version>3.3.0</version>
+      <groupId>org.glassfish.jaxb</groupId>
+      <artifactId>jaxb-runtime</artifactId>
+      <version>2.3.2</version>
     </dependency>
 
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.28</version>
-    </dependency>
-
-
-
-    <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
-      <version>2.5</version>
-      <scope>provided</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>commons-codec</groupId>
-      <artifactId>commons-codec</artifactId>
-      <version>1.10</version>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
-    <dependency>
-      <groupId>com.sun.mail</groupId>
-      <artifactId>javax.mail</artifactId>
-      <version>1.6.1</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.passay</groupId>
-      <artifactId>passay</artifactId>
-      <version>1.6.4</version>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
@@ -132,74 +77,16 @@
     </dependency>
 
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>jstl</artifactId>
-      <version>1.2</version>
-    </dependency>
-
-    <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
       <version>5.6.15.Final</version>
     </dependency>
 
-
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.28</version>
     </dependency>
-    <dependency>
-      <groupId>com.sun.jersey</groupId>
-      <artifactId>jersey-server</artifactId>
-      <version>1.19</version>
-    </dependency>
-    <dependency>
-      <groupId>com.sun.jersey</groupId>
-      <artifactId>jersey-servlet</artifactId>
-      <version>1.19</version>
-    </dependency>
-    <dependency>
-      <groupId>com.sun.jersey</groupId>
-      <artifactId>jersey-client</artifactId>
-      <version>1.19</version>
-    </dependency> <!-- API, java.xml.bind module -->
-    <dependency>
-      <groupId>jakarta.xml.bind</groupId>
-      <artifactId>jakarta.xml.bind-api</artifactId>
-      <version>2.3.2</version>
-    </dependency> <!-- Runtime, com.sun.xml.bind module -->
-    <dependency>
-      <groupId>org.glassfish.jaxb</groupId>
-      <artifactId>jaxb-runtime</artifactId>
-      <version>2.3.2</version>
-    </dependency>
-    <!-- Jackson -->
-    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-    <dependency>
-      <groupId>com.fasterxml.jackson.core</groupId>
-      <artifactId>jackson-databind</artifactId>
-      <version>2.10.0</version>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-server -->
-    <dependency>
-      <groupId>com.sun.jersey</groupId>
-      <artifactId>jersey-server</artifactId>
-      <version>1.8</version>
-    </dependency>
-    <dependency>
-      <groupId>com.sun.jersey</groupId>
-      <artifactId>jersey-json</artifactId>
-      <version>1.18.1</version>
-    </dependency>
-    <dependency>
-      <groupId>com.owlike</groupId>
-      <artifactId>genson</artifactId>
-      <version>0.99</version>
-    </dependency>
-
 
   </dependencies>
   <build>

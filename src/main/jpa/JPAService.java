@@ -1,5 +1,6 @@
-package main.rest.service;
+package main.jpa;
 
+import main.jpa.dao.model.Student;
 import main.rest.beans.Address;
 import main.rest.beans.Person;
 import org.hibernate.Session;
@@ -44,6 +45,7 @@ public class JPAService {
             configuration.setProperties(props);
             configuration.addAnnotatedClass(Address.class);
             configuration.addAnnotatedClass(Person.class);
+            configuration.addAnnotatedClass(Student.class);
             ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
             entityManagerFactory = configuration.buildSessionFactory(serviceRegistry);
         }

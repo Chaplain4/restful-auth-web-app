@@ -1,4 +1,4 @@
-package main.rest.dao;
+package main.jpa.dao;
 
 
 import main.rest.beans.Response;

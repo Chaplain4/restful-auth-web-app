@@ -8,8 +8,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name = "person")
 @Data
-@Builder
-@Jacksonized
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
